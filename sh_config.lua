@@ -11,7 +11,7 @@ Config.SlingCommand = "sling"
 Config.SlingDefaultKey = "J"
 
 Config.EnableSling = true
-Config.SlingableWeapons = {
+Config.Weapons = {
 	-- ARs --
 	"WEAPON_ADVANCEDRIFLE",
 	"WEAPON_ASSAULTRIFLE",
