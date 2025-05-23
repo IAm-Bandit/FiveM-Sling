@@ -8,4 +8,10 @@ Server owners can adjust the Prefix/Server Name in the config, along with the co
 
 ## FAQ
 ### Q: Weapons aren't showing up on players backs?
-### A: You need to make sure the model name is specified in the "Config.Models" section in "sh_config.lua".
+### A: You need to make sure the weapon hash AND model name is specified in the "Config.Models" section in "sh_config.lua".
+```
+Config.Models = {
+    ["WEAPON_ADVANCEDRIFLE"] = "W_AR_ADVANCEDRIFLE",
+    ["WEAPON_ASSAULTRIFLE"] = "W_AR_ASSAULTRIFLE"
+}
+```
