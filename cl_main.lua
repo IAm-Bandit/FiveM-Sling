@@ -101,7 +101,7 @@ function VehicleInFront()
 end
 
 function isWeaponSlingable(model)
-	for _, gun in pairs(Config.SlingableWeapons) do
+	for _, gun in pairs(Config.Weapons) do
 		if model == GetHashKey(gun) then
 			return true
 		end
